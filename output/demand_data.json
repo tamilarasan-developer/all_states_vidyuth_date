@@ -1,1 +1,109 @@
-[]
+{
+    "time_block": "17:00 - 17:15",
+    "states": {
+        "andhra-pradesh": {
+            "yesterday_demand_MW": "10,718",
+            "current_demand_MW": "0"
+        },
+        "arunachal-pradesh": {
+            "yesterday_demand_MW": "152",
+            "current_demand_MW": "139"
+        },
+        "assam": {
+            "yesterday_demand_MW": "1,538",
+            "current_demand_MW": "1,689"
+        },
+        "bihar": {
+            "yesterday_demand_MW": "5,065",
+            "current_demand_MW": "5,164"
+        },
+        "chhattisgarh": {
+            "yesterday_demand_MW": "5,893",
+            "current_demand_MW": "6,218"
+        },
+        "goa": {
+            "yesterday_demand_MW": "528",
+            "current_demand_MW": "639"
+        },
+        "gujarat": {
+            "yesterday_demand_MW": "19,137",
+            "current_demand_MW": "21,561"
+        },
+        "haryana": {
+            "yesterday_demand_MW": "6,183",
+            "current_demand_MW": "7,555"
+        },
+        "himachal-pradesh": {
+            "yesterday_demand_MW": "1,361",
+            "current_demand_MW": "1,586"
+        },
+        "jharkhand": {
+            "yesterday_demand_MW": "1,734",
+            "current_demand_MW": "1,646"
+        },
+        "karnataka": {
+            "yesterday_demand_MW": "13,714",
+            "current_demand_MW": "15,416"
+        },
+        "kerala": {
+            "yesterday_demand_MW": "3,807",
+            "current_demand_MW": "4,516"
+        },
+        "madhya-pradesh": {
+            "yesterday_demand_MW": "12,112",
+            "current_demand_MW": "12,674"
+        },
+        "maharashtra": {
+            "yesterday_demand_MW": "27,141",
+            "current_demand_MW": "29,717"
+        },
+        "manipur": {
+            "yesterday_demand_MW": "165",
+            "current_demand_MW": "181"
+        },
+        "odisha": {
+            "yesterday_demand_MW": "N/A",
+            "current_demand_MW": "5,061"
+        },
+        "punjab": {
+            "yesterday_demand_MW": "N/A",
+            "current_demand_MW": "7,555"
+        },
+        "rajasthan": {
+            "yesterday_demand_MW": "N/A",
+            "current_demand_MW": "13,212"
+        },
+        "sikkim": {
+            "yesterday_demand_MW": "N/A",
+            "current_demand_MW": "93"
+        },
+        "tamil-nadu": {
+            "yesterday_demand_MW": "N/A",
+            "current_demand_MW": "18,594"
+        },
+        "telangana": {
+            "yesterday_demand_MW": "N/A",
+            "current_demand_MW": "12,649"
+        },
+        "tripura": {
+            "yesterday_demand_MW": "N/A",
+            "current_demand_MW": "220"
+        },
+        "uttar-pradesh": {
+            "yesterday_demand_MW": "N/A",
+            "current_demand_MW": "16,778"
+        },
+        "uttarakhand": {
+            "yesterday_demand_MW": "N/A",
+            "current_demand_MW": "2,146"
+        },
+        "west-bengal": {
+            "yesterday_demand_MW": "N/A",
+            "current_demand_MW": "9,195"
+        },
+        "delhi": {
+            "yesterday_demand_MW": "N/A",
+            "current_demand_MW": "4,290"
+        }
+    }
+}

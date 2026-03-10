@@ -39,7 +39,10 @@ driver.implicitly_wait(5)
 
 print("\nSTATE | TIME BLOCK | YESTERDAY | CURRENT")
 
-results=[]
+results = {
+    "time_block": "N/A",
+    "states": {}
+}
 
 for state in states:
 
@@ -86,12 +89,13 @@ for state in states:
 
         print(f"{state} | {time_block} | {yesterday} MW | {current} MW")
 
-        results.append({
-            "state":state,
-            "time_block":time_block,
-            "yesterday_demand_MW":yesterday,
-            "current_demand_MW":current
-        })
+        if results["time_block"] == "N/A" and time_block != "N/A":
+            results["time_block"] = time_block
+
+        results["states"][state] = {
+            "yesterday_demand_MW": yesterday,
+            "current_demand_MW": current
+        }
 
     except:
         print(f"{state} | ERROR")
